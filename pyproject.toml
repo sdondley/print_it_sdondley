@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "print-it-sdondley"
+version = "0.1.0"
+description = ""
+authors = ["Steve Dondley <s@dondley.com>"]
+readme = "README.md"
+packages = [{include = "print_it_sdondley"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
